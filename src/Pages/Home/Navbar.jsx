@@ -1,5 +1,8 @@
 import React from "react";
 import AboutUsLinks from "./NavLinks/AboutUsLinks";
+import BeClientLinks from "./NavLinks/BeClientLinks";
+import DownloadLinks from "./NavLinks/DownloadLinks";
+import ServiceLinks from "./NavLinks/ServiceLinks";
 
 const Navbar = () => {
   return (
@@ -24,8 +27,8 @@ const Navbar = () => {
                   <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                 </svg>
               </a>
-              <ul class="p-2 bg-base-100 w-screen -right-[500px] dropdown-end  absolute">
-                <AboutUsLinks />
+              <ul class="p-2 bg-base-100 w-screen -right-[700px] dropdown-end  absolute">
+                <ServiceLinks />
               </ul>
             </li>
             {/* Become a client */}
@@ -42,8 +45,8 @@ const Navbar = () => {
                   <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                 </svg>
               </a>
-              <ul class="p-2 bg-base-100 w-screen -right-[350px] dropdown-end  absolute">
-                <AboutUsLinks />
+              <ul class="p-2 bg-base-100 w-screen -right-[500px] dropdown-end  absolute">
+                <BeClientLinks />
               </ul>
             </li>
             <li tabindex="0">
@@ -60,7 +63,7 @@ const Navbar = () => {
                 </svg>
               </a>
               <ul class="p-2 bg-base-100 w-screen -right-[200px] dropdown-end  absolute">
-                <AboutUsLinks />
+                <DownloadLinks />
               </ul>
             </li>
             <li tabindex="0">
