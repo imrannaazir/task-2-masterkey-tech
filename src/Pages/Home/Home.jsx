@@ -1,4 +1,5 @@
 import React from "react";
+import Analytics from "./Analytics";
 import Footer from "./Footer";
 
 import Navbar from "./Navbar";
@@ -9,6 +10,7 @@ const Home = () => {
     <div>
       <Navbar />
       <Slider />
+      <Analytics />
       <Footer />
     </div>
   );
