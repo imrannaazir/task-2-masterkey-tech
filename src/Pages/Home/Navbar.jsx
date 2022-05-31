@@ -27,7 +27,7 @@ const Navbar = () => {
                   <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                 </svg>
               </a>
-              <ul class="p-2 bg-red-500 w-screen -right-[700px] dropdown-end  absolute z-50">
+              <ul class="p-2 bg-base-100 w-screen -right-[660px] dropdown-end  absolute z-50">
                 <ServiceLinks />
               </ul>
             </li>
@@ -45,7 +45,7 @@ const Navbar = () => {
                   <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                 </svg>
               </a>
-              <ul class="p-2 bg-base-100 w-screen -right-[500px] dropdown-end  absolute z-50">
+              <ul class="p-2 bg-base-100 w-screen -right-[480px] dropdown-end  absolute z-50">
                 <BeClientLinks />
               </ul>
             </li>
@@ -62,7 +62,7 @@ const Navbar = () => {
                   <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                 </svg>
               </a>
-              <ul class="p-2 bg-base-100 w-screen -right-[200px] dropdown-end  absolute z-50">
+              <ul class="p-2 bg-base-100 w-screen -right-[350px] dropdown-end  absolute z-50">
                 <DownloadLinks />
               </ul>
             </li>
@@ -79,7 +79,7 @@ const Navbar = () => {
                   <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                 </svg>
               </a>
-              <ul class="p-2 bg-base-100 w-screen -right-[85px] dropdown-end  absolute z-50">
+              <ul class="p-2 bg-base-100 w-screen -right-[210px] dropdown-end  absolute z-50">
                 <AboutUsLinks />
               </ul>
             </li>
