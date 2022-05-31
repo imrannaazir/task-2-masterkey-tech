@@ -2,13 +2,13 @@ import React from "react";
 
 const AboutUsLinks = () => {
   return (
-    <div className="flex justify-around">
+    <div className="lg:flex justify-around">
       <img
         src="https://i.ibb.co/NZgfQVC/Untitled-design-42.jpg"
-        className="w-56"
+        className="w-56 hidden lg:block"
         alt=""
       />
-      <ul className="grid grid-cols-3">
+      <ul className="lg:grid lg:grid-cols-3">
         <li>
           <a>Capital Profile</a>
         </li>

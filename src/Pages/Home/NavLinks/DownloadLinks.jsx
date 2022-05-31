@@ -2,13 +2,13 @@ import React from "react";
 
 const DownloadLinks = () => {
   return (
-    <div className="flex justify-around">
+    <div className="lg:flex justify-around">
       <img
         src="https://i.ibb.co/7vQct8b/download.jpg"
-        className="w-56"
+        className="w-56 hidden lg:block"
         alt=""
       />
-      <ul className="grid grid-cols-3">
+      <ul className="lg:grid grid-cols-3">
         <li>
           <a className="text-primary">Forms</a>
           <li>

@@ -1,5 +1,6 @@
 import React from "react";
 import Analytics from "./Analytics";
+import ContactUs from "./ContactUs";
 import Footer from "./Footer";
 
 import Navbar from "./Navbar";
@@ -15,6 +16,7 @@ const Home = () => {
       <OurCEO />
       <OurMission />
       <Analytics />
+      <ContactUs />
       <Footer />
     </div>
   );

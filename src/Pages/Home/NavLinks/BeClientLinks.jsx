@@ -2,9 +2,13 @@ import React from "react";
 
 const BeClientLinks = () => {
   return (
-    <div className="flex justify-around">
-      <img src="https://i.ibb.co/hKzdgpW/client.jpg" className="w-56" alt="" />
-      <ul className="grid grid-cols-3">
+    <div className="lg:flex justify-around">
+      <img
+        src="https://i.ibb.co/hKzdgpW/client.jpg"
+        className="w-56 hidden lg:block"
+        alt=""
+      />
+      <ul className="lg:grid grid-cols-3">
         <li>
           <a>Bangladeshi Individuals</a>
         </li>

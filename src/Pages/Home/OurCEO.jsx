@@ -2,16 +2,16 @@ import React from "react";
 
 const OurCEO = () => {
   return (
-    <div class="hero  bg-base-200">
-      <div class="hero-content grid grid-cols-2 gap-8">
+    <div className="hero  bg-base-200">
+      <div className="hero-content grid lg:grid-cols-2 gap-8">
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS20EptmkYefff6POHQ6LIKdGvwcx8VBYFb9A&usqp=CAU"
           className="rounded-md w-[90%]"
         />
         <div>
-          <h1 class="text-5xl font-bold">Our CEO!</h1>
+          <h1 className="text-5xl font-bold">Our CEO!</h1>
           <p className="text-lg text-primary">John Abraham</p>
-          <p class="py-6">
+          <p className="py-6">
             {`"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
           expedita dolorem dignissimos harum soluta aliquid voluptate ipsa, a
           temporibus, placeat assumenda voluptates alias accusamus et
@@ -25,7 +25,7 @@ const OurCEO = () => {
           perspiciatis hic dolore quod, doloremque amet odio facere vitae
           laborum maiores. Dolor, incidunt!"`}
           </p>
-          <button class="btn btn-primary">Follow Him</button>
+          <button className="btn btn-primary">Follow Him</button>
         </div>
       </div>
     </div>

@@ -47,8 +47,8 @@ const Slider = () => {
           className="mySwiper"
         >
           {banners.map((banner, i) => (
-            <SwiperSlide>
-              <Banner key={i} banner={banner} />
+            <SwiperSlide key={i}>
+              <Banner banner={banner} />
             </SwiperSlide>
           ))}
         </Swiper>

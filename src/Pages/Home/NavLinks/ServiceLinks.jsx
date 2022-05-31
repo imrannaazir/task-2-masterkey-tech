@@ -2,13 +2,13 @@ import React from "react";
 
 const ServiceLinks = () => {
   return (
-    <div className="flex justify-around">
+    <div className="lg:flex justify-around">
       <img
         src="https://i.ibb.co/gt56tcG/Untitled-design-2.png"
-        className="w-56"
+        className="w-56 hidden lg:block"
         alt=""
       />
-      <ul className="grid grid-cols-3 items-start">
+      <ul className="lg:grid grid-cols-3 items-start">
         <li>
           <a className="text-primary">Coppertech Industries Ltd.</a>
           <ul>
